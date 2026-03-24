@@ -1,6 +1,11 @@
 {
   "version": 1,
   "skills": {
+    "google-ts-styleguide": {
+      "source": "ysknsid25/skills",
+      "sourceType": "github",
+      "computedHash": "f460d08300b6a9911fc9b59e3db6a1f18da8671fb931f6b53107e35d8d544bad"
+    },
     "vercel-react-best-practices": {
       "source": "vercel-labs/agent-skills",
       "sourceType": "github",
