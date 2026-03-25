@@ -1,0 +1,4 @@
+interface:
+  display_name: "VS Code Extension Builder"
+  short_description: "Build and ship modern VS Code extensions"
+  default_prompt: "Use $vscode-extension-builder to build or upgrade a modern VS Code extension."
