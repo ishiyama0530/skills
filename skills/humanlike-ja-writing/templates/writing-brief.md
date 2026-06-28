@@ -1,0 +1,25 @@
+# Writing Brief
+
+- Purpose:
+- Audience:
+- Medium:
+- Claim:
+- Stance:
+- Assertion level:
+- Evidence:
+  - Data:
+  - Personal experience:
+  - Observations:
+  - Failure cases:
+  - Comparisons:
+  - Sources:
+- Style sample:
+- Tone:
+- Must include:
+- Must avoid:
+- Unknowns:
+- Assumptions:
+- Context gate:
+  - stance: pass | warn | fail
+  - evidence: pass | warn | fail
+  - medium fit: pass | warn | fail

@@ -1,0 +1,38 @@
+{
+  "technical_article": {
+    "preferred_openings": ["conclusion", "problem", "constraint", "failure_case", "comparison"],
+    "avoid": ["fake_empathy", "dramatic_intro", "ceremonial_closing", "unsupported_trend"],
+    "allow": ["code_terms", "tradeoff", "limitation", "benchmark", "failure_case"],
+    "tone": "direct, practical, concise"
+  },
+  "business_document": {
+    "preferred_openings": ["decision", "purpose", "request", "deadline"],
+    "avoid": ["digression", "fake_empathy", "unclear_owner", "excessive_politeness"],
+    "allow": ["bullets", "next_action", "risk", "deadline"],
+    "tone": "clear, accountable, low cognitive load"
+  },
+  "blog_note": {
+    "preferred_openings": ["observation", "personal_scene", "discomfort", "claim"],
+    "avoid": ["template_summary", "overstructured_headings", "empty_insight"],
+    "allow": ["first_person", "emotion", "digression", "aftertaste"],
+    "tone": "personal but grounded"
+  },
+  "social_post": {
+    "preferred_openings": ["single_claim", "concrete_scene", "contrast"],
+    "avoid": ["thread_template", "bait", "fake_lesson", "unsupported_personal_story"],
+    "allow": ["short_sentences", "one_strong_claim", "example"],
+    "tone": "dense, specific, not overexplained"
+  },
+  "marketing_copy": {
+    "preferred_openings": ["reader_problem", "use_case", "clear_benefit"],
+    "avoid": ["generic_problem", "exaggeration", "fake_social_proof", "next_generation"],
+    "allow": ["cta", "benefit", "case", "comparison"],
+    "tone": "concrete, useful, restrained"
+  },
+  "email_message": {
+    "preferred_openings": ["purpose", "request", "reply", "thanks"],
+    "avoid": ["long_preface", "unclear_request", "excessive_cushion"],
+    "allow": ["politeness", "deadline", "bullet_points"],
+    "tone": "polite, concise, actionable"
+  }
+}

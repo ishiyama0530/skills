@@ -1,0 +1,218 @@
+[
+  {
+    "id": "template_intro_honbun_kiji",
+    "pattern": "本記事では",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "template_intro",
+    "reason": "記事の定型導入になりやすい",
+    "suggestion": "主張、場面、数字、違和感から入る"
+  },
+  {
+    "id": "template_intro_kono_kiji",
+    "pattern": "この記事では",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "template_intro",
+    "reason": "構成宣言だけの導入になりやすい",
+    "suggestion": "読者に必要な結論または具体場面から始める"
+  },
+  {
+    "id": "generic_recent_kinnen",
+    "pattern": "近年",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "generic_background",
+    "reason": "根拠の薄い時代背景づくりになりやすい",
+    "suggestion": "いつ、誰が、どの文脈で変化したかを書く"
+  },
+  {
+    "id": "generic_attention_chumoku",
+    "pattern": "注目されています",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "generic_background",
+    "reason": "誰が注目しているか不明になりやすい",
+    "suggestion": "主体、理由、根拠を明記する"
+  },
+  {
+    "id": "generic_attention_atsumeru",
+    "pattern": "注目を集めています",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "generic_background",
+    "reason": "話題性の根拠が曖昧になりやすい",
+    "suggestion": "誰の間で、なぜ話題なのかを書く"
+  },
+  {
+    "id": "vague_source_many_people",
+    "pattern": "多くの人",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "vague_source",
+    "reason": "範囲と根拠が曖昧",
+    "suggestion": "誰のことか、または自分の観察範囲を書く"
+  },
+  {
+    "id": "vague_source_many_companies",
+    "pattern": "多くの企業",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "vague_source",
+    "reason": "出典なしの一般化になりやすい",
+    "suggestion": "業界、件数、出典、観察範囲を明記する"
+  },
+  {
+    "id": "vague_source_experts",
+    "pattern": "専門家によると",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "vague_source",
+    "reason": "出典がない場合に信頼性を装う表現になる",
+    "suggestion": "具体的な出典を示すか削る"
+  },
+  {
+    "id": "thin_causality_kore_ni_yori",
+    "pattern": "これにより",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "thin_causality",
+    "reason": "因果の中間説明を飛ばしやすい",
+    "suggestion": "なぜそうなるかを書く"
+  },
+  {
+    "id": "thin_causality_tsunagarimasu",
+    "pattern": "につながります",
+    "pattern_type": "literal",
+    "severity": "minor",
+    "category": "thin_causality",
+    "reason": "具体的な変化が曖昧になりやすい",
+    "suggestion": "何がどう変わるかを書く"
+  },
+  {
+    "id": "copula_possible",
+    "pattern": "することが可能です",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "copula_avoidance",
+    "reason": "回りくどく機械的に見えやすい",
+    "suggestion": "できます、または具体的な動詞にする"
+  },
+  {
+    "id": "generic_importance_role",
+    "pattern": "重要な役割を果たします",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "generic_importance",
+    "reason": "役割の中身が空になりやすい",
+    "suggestion": "何をするのかを動詞で書く"
+  },
+  {
+    "id": "generic_importance_juyo",
+    "pattern": "重要です",
+    "pattern_type": "literal",
+    "severity": "minor",
+    "category": "generic_importance",
+    "reason": "何に効くのかが曖昧になりやすい",
+    "suggestion": "具体的な影響を書く"
+  },
+  {
+    "id": "abstract_ukibori",
+    "pattern": "浮き彫り",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "abstract_vocabulary",
+    "reason": "誰が何を見て判断したかが抜けやすい",
+    "suggestion": "観察した事実と判断主体を書く"
+  },
+  {
+    "id": "abstract_shisa",
+    "pattern": "示唆しています",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "abstract_vocabulary",
+    "reason": "何をどこまで言えるかが曖昧",
+    "suggestion": "言える範囲を具体的に書く"
+  },
+  {
+    "id": "weak_hedging_ieru",
+    "pattern": "と言えるでしょう",
+    "pattern_type": "literal",
+    "severity": "minor",
+    "category": "weak_hedging",
+    "reason": "断言回避の定型句になりやすい",
+    "suggestion": "断言するか、条件を明示する"
+  },
+  {
+    "id": "closing_ikaga",
+    "pattern": "いかがでしたか",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "ceremonial_closing",
+    "reason": "量産記事の定型結論に見えやすい",
+    "suggestion": "書き手の判断または次アクションで終える"
+  },
+  {
+    "id": "closing_sanko",
+    "pattern": "参考になれば幸いです",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "ceremonial_closing",
+    "reason": "儀礼的な締めで主張が弱くなる",
+    "suggestion": "結論や判断で終える"
+  },
+  {
+    "id": "fake_empathy_nayami",
+    "pattern": "悩んでいませんか",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "fake_empathy",
+    "reason": "読者の悩みの代弁が不自然になりやすい",
+    "suggestion": "実際の課題や観察がある場合だけ使う"
+  },
+  {
+    "id": "fake_empathy_zehi",
+    "pattern": "ぜひ",
+    "pattern_type": "literal",
+    "severity": "minor",
+    "category": "fake_empathy",
+    "reason": "過剰な誘導や営業文句に見えやすい",
+    "suggestion": "必要なCTAだけ残す"
+  },
+  {
+    "id": "abstract_honshitsu",
+    "pattern": "本質",
+    "pattern_type": "literal",
+    "severity": "minor",
+    "category": "abstract_vocabulary",
+    "reason": "抽象的な大きい言葉で水増ししやすい",
+    "suggestion": "何のどの性質かを書く"
+  },
+  {
+    "id": "abstract_kaizodo",
+    "pattern": "解像度",
+    "pattern_type": "literal",
+    "severity": "minor",
+    "category": "abstract_vocabulary",
+    "reason": "何が具体化されたか不明になりやすい",
+    "suggestion": "具体化された対象を書く"
+  },
+  {
+    "id": "surface_content_reference",
+    "pattern": "contentReference",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "artifact",
+    "reason": "生成ツール由来の残骸",
+    "suggestion": "削除する"
+  },
+  {
+    "id": "surface_oai_citation",
+    "pattern": "oai_citation",
+    "pattern_type": "literal",
+    "severity": "major",
+    "category": "artifact",
+    "reason": "生成ツール由来の残骸",
+    "suggestion": "削除する"
+  }
+]

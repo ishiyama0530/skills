@@ -1,0 +1,74 @@
+[
+  {
+    "id": "p0_missing_writer_stance",
+    "priority": "P0",
+    "category": "stance",
+    "signal": "主張が一般論で、誰の判断か分からない",
+    "bad_example": "AIの活用は今後ますます重要になります。",
+    "better_example": "議事録の整形に限れば、AIを使わない理由はかなり減った。",
+    "review_question": "この文は誰の経験・判断として読めるか？"
+  },
+  {
+    "id": "p0_missing_specifics",
+    "priority": "P0",
+    "category": "specificity",
+    "signal": "数字、場面、固有名詞、比較がない",
+    "bad_example": "業務効率化が期待できます。",
+    "better_example": "週次レポートの整形に30分かかっていたのが、レビュー込みで10分ほどになった。",
+    "review_question": "読者が具体的な場面を思い浮かべられるか？"
+  },
+  {
+    "id": "p0_fabricated_humanity",
+    "priority": "P0",
+    "category": "truthfulness",
+    "signal": "根拠のない体験談や感情が足されている",
+    "bad_example": "実際に使ってみて、とても嬉しくなりました。",
+    "better_example": "体験がない場合は、一般論として書く。",
+    "review_question": "この体験、数字、感情はユーザーから提供されたものか？"
+  },
+  {
+    "id": "p1_false_agency",
+    "priority": "P1",
+    "category": "agency",
+    "signal": "無生物主語や抽象主語で行為者が見えない",
+    "bad_example": "このデータは課題を浮き彫りにしています。",
+    "better_example": "5人中4人が検索フォームで止まった。",
+    "review_question": "誰が何を見て、何を判断したか？"
+  },
+  {
+    "id": "p1_thin_causality",
+    "priority": "P1",
+    "category": "causality",
+    "signal": "因果の中間説明がない",
+    "bad_example": "これにより、生産性が向上します。",
+    "better_example": "整形作業を自動化できるため、レビュー込みの作業時間が短くなる。",
+    "review_question": "AがBを生む中間メカニズムは書かれているか？"
+  },
+  {
+    "id": "p2_template_structure",
+    "priority": "P2",
+    "category": "structure",
+    "signal": "導入、背景、課題、解決策、まとめの型が強い",
+    "bad_example": "本記事では、3つのポイントを解説します。",
+    "better_example": "主張、失敗例、数字、違和感から入る。",
+    "review_question": "この構成は媒体に合っているか？"
+  },
+  {
+    "id": "p3_abstract_vocabulary",
+    "priority": "P3",
+    "category": "vocabulary",
+    "signal": "抽象語で水増ししている",
+    "bad_example": "本質的な価値を浮き彫りにします。",
+    "better_example": "何がどう変わったかを書く。",
+    "review_question": "抽象語を具体的な動作や数字に置き換えられるか？"
+  },
+  {
+    "id": "p4_surface_artifacts",
+    "priority": "P4",
+    "category": "surface",
+    "signal": "記号、Markdown、ツール残骸が残る",
+    "bad_example": "**重要:** これは——非常に重要です。",
+    "better_example": "太字コロンやダッシュを削り、普通の文にする。",
+    "review_question": "見た目だけでAI出力に見えないか？"
+  }
+]

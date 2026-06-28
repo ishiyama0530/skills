@@ -1,0 +1,48 @@
+{
+  "stance": {
+    "pass": "主張と断言範囲が明確",
+    "warn": "主張はあるが一般論が多い",
+    "fail": "誰の立場か分からない"
+  },
+  "specificity": {
+    "pass": "数字、固有名詞、場面、体験、比較がある",
+    "warn": "具体例はあるが弱い",
+    "fail": "抽象論だけ"
+  },
+  "agency": {
+    "pass": "誰が何をしたか分かる",
+    "warn": "一部の主体が曖昧",
+    "fail": "無生物主語、受け身、抽象名詞が多い"
+  },
+  "causality": {
+    "pass": "因果の中間と条件がある",
+    "warn": "因果はあるが説明が薄い",
+    "fail": "定型接続だけで因果を装っている"
+  },
+  "structure": {
+    "pass": "媒体に合った構成",
+    "warn": "定型導入や定型結論が一部ある",
+    "fail": "全体がテンプレ構成"
+  },
+  "rhythm": {
+    "pass": "文長、段落、語尾に自然な揺れがある",
+    "warn": "少し均質",
+    "fail": "機械的に整いすぎている"
+  },
+  "vocabulary": {
+    "pass": "抽象語が具体材料に支えられている",
+    "warn": "高リスク語が複数ある",
+    "fail": "抽象語とAI頻出語で水増ししている"
+  },
+  "surface": {
+    "pass": "記号、Markdown癖、定型句が少ない",
+    "warn": "軽微な表層AI臭がある",
+    "fail": "明らかなAI出力残骸や定型句が多い"
+  },
+  "decision_rules": {
+    "rewrite_required": "failが1つでもある",
+    "need_more_context": "P0/P1のfailがあり、捏造なしには直せない",
+    "rewrite_recommended": "warnが3つ以上ある",
+    "minor_edit": "surface warnのみ、またはwarnが2つ以下"
+  }
+}
